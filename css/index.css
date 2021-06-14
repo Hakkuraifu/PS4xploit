@@ -57,6 +57,7 @@ h1 {
     color:#ac0081;
     font-family: 'Raleway', sans-serif; font-size: 50px;
     text-align: center;
+
 }
 
 h2 {
@@ -117,7 +118,7 @@ h4 {
 .btn-disabled {
     width: 20%;
     background-color: #777777;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 15px;
 }
 
@@ -125,13 +126,13 @@ h4 {
     width: 20%;
     background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
     background-size: 200% auto;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 15px;
 }
 .btn-main:hover {
     width: 20%;
     background-position: right center;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 22px;
 }
 
@@ -146,17 +147,21 @@ h4 {
     transition-duration: 0.4s;
     cursor: pointer;
     float: left;
-    border: 5px solid black;
+    border: 1px solid black;
     padding-top: 5px;
     color: white;
     padding-bottom: 10px;
     border-radius: 10px;
+    top: 2%;
+    position: absolute;
+    left: 1%;
 }
 
 #Cache:hover {
     width: 20%;
     background-color: indianred;
     font-size: 15px;
+    border: 3px solid black;
 }
 
 .linear-wipe {
@@ -176,7 +181,7 @@ h4 {
 
 #NazkyPP{
     position:absolute;
-    padding-top: 5px;
+    top: 2%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     left: 91%;
@@ -186,9 +191,10 @@ h4 {
     border-radius: 10px;
     z-index: -1;
     position: absolute;
-    opacity: 70%;
+    opacity: 50%;
     width: 99%;
     height: 98%;
+    top: 1%;
 }
 
 @-webkit-keyframes BackgrounGradient {

@@ -11,5 +11,5 @@ IP = s.getsockname()[0]
 
 with socketserver.TCPServer(("", PORT), Handler) as httpd:
     print("Http server up")
-    print("Adress :", IP)
+    print("Adress :", IP,":",PORT)
     httpd.serve_forever()
